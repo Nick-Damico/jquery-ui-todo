@@ -1,0 +1,15 @@
+{
+  "name": "jquery-plugins",
+  "version": "1.0.0",
+  "description": "learning jquery-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nickalan82@icloud.com",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1"
+  }
+}
