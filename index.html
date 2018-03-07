@@ -8,15 +8,36 @@
     <link href="js/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" >
   </head>
   <body>
-    <div class="container fixedContainer">
-           <h1>jQuery UI: Draggable</h1>
-
-           <div id="box1" class="box">BOX 1</div>
-           <div id="box2" class="box">BOX 2</div>
-           <div id="box3" class="box">BOX 3</div>
-           <div id="box4" class="box">BOX 4</div>
-
-       </div><!-- .container -->
+    <main>
+      <div class="wrapper">
+        <h1 class='header--main'>jQuery Ui Todo List</h1>
+        <section class="day-container">
+          <ul class="todo--lists">
+            <li class="title">monday</li>
+            <li class="input--li"><input type="text" class="add-todo" placeholder="add todo" /></li>
+          </ul>
+          <ul class="todo--lists">
+            <li class="title">tuesday</li>
+            <li class="input--li"><input type="text" class="add-todo" placeholder="add todo" /></li>
+          </ul>
+          <ul class="todo--lists">
+            <li class="title">wednesday</li>
+            <li class="input--li"><input type="text" class="add-todo" placeholder="add todo" /></li>
+          </ul>
+          <ul class="todo--lists">
+            <li class="title">thursday</li>
+            <li class="input--li"><input type="text" class="add-todo" placeholder="add todo" /></li>
+          </ul>
+          <ul class="todo--lists">
+            <li class="title">friday</li>
+            <li class="input--li"><input type="text" class="add-todo" placeholder="add todo" /></li>
+          </ul>
+        </section>
+        <div class="div--remove-items">
+          <span>Drop item to remove</span>
+        </div>
+      </div>
+    </main>
     <!-- if CDN Fails, load local version -->
     <script>window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.min.js"><\/script>')</script>
     <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>

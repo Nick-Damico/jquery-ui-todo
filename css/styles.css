@@ -173,3 +173,61 @@ ul li:active {
     line-height: 200px;
     text-align: center;
 }
+
+
+
+/* ============================================
+Todo Application
+============================================ */
+.wrapper {
+  width: 90%;
+  max-width: 960px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+ul.todo--lists {
+  text-align: center;
+  padding: 8px 12px;
+  position: relative;
+}
+
+ul.todo--lists li:nth-child(2) {
+  display: none;
+}
+
+.todo--lists input {
+  width: 90%;
+  max-width: 75px;
+  text-align: center;
+}
+
+.todo--lists li {
+  background:#5162c5;
+  color:white;
+}
+
+.day-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: #62d0d0;
+  padding: 20px 20px;
+}
+
+.div--remove-items {
+  margin: 40px auto;
+  height: 200px;
+  width: 40%;
+  max-width: 300px;
+  background: #f56528;
+  border: 6px dashed #ffd200;
+  color: white;
+  line-height: 200px;
+}
+
+
+.submit {
+  display: none;
+}
