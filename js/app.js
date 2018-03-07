@@ -6,15 +6,6 @@ function isThirteen(keyCode) {
 $(function() {
   const $todoLists = $('.todo--lists');
   const $titleLi = $('li.title');
-  // Activate dropdown input
-   $todoLists.on({
-     mouseover:  function() {
-       $(this).children('li.input--li').slideDown(800);
-     },
-     mouseleave: function() {
-       $(this).children('li.input--li').slideUp(800);
-     }
-   })
 
   // capture todo item and append to list
   $('input').on('keypress', function(e) {
@@ -22,7 +13,7 @@ $(function() {
     const keyCode = (window.event) ? e.which : e.keyCode;
     if ( isThirteen(keyCode) ) {
       const inputVal = $this.val();
-      const liItem = `<li>${inputVal}</li>`;
+      const liItem = `<li class="todo-item-text">${inputVal}</li>`;
       $this.parent().parent().append(liItem);
       $this.val('');
     }
