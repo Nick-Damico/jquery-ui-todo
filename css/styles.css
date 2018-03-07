@@ -185,6 +185,11 @@ body {
  background: linear-gradient(to right, #403b4a, #e7e9bb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  font-family: 'Berkshire Swash', cursive;
 }
+
+.header--main {
+  margin-top: 0;
+  padding-top: 20px;
+}
 .wrapper {
   width: 90%;
   max-width: 960px;
@@ -271,7 +276,7 @@ html, body {
 
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -75px;
+  margin-bottom: -52px;
 }
 .footer,
 .push {
