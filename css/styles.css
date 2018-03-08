@@ -190,14 +190,14 @@ body {
   margin-top: 0;
   padding-top: 20px;
 }
-.wrapper {
+.content-wrapper {
   width: 90%;
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
 }
 
-.day-container {
+.list-container {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -205,30 +205,30 @@ body {
   padding-bottom: 2px;
 }
 
-ul.todo--lists {
+.list-container__list {
   text-align: center;
 }
 
-.todo--lists .title {
+.list-container__list .list-container__title {
   background: none;
   border: none;
   font-size: 1.5rem;
   border-bottom: 1px solid black;
 }
 
-ul.todo--lists li:first-child {
+.list-container__list li:first-child {
   margin-bottom: 6px;
 }
 
-.todo-item-text {
+.list-container__item {
   font-family: 'Satisfy', cursive;
 }
 
-ul.todo--lists li:nth-child(2) {
+.list-container__list li:nth-child(2) {
   background: none;
   border: none;
 }
-.todo--lists input {
+.list-container__list input {
   width: 100%;
   max-width: 100px;
   text-align: center;
@@ -237,19 +237,19 @@ ul.todo--lists li:nth-child(2) {
   text-transform: capitalize;
   outline: none;
 }
-.todo--lists input::placeholder {
+.list-container__list input::placeholder {
   color: rgba(0,0,0, .6);
 }
-.todo--lists li {
+.list-container__list li {
   text-transform: capitalize;
 }
-.todo--lists .emptySpace {
+.list-container__list .emptySpace {
     background: rgba(0,0,0, .2);
     border: dashed 1px white;
     height: 15px;
 }
 
-.div--remove-items {
+.removal {
   margin: 40px auto;
   height: 200px;
   width: 40%;
@@ -271,7 +271,7 @@ html, body {
   margin: 0;
 }
 
-.main {
+.main-container {
   min-height: 100%;
 
   /* Equal to height of footer */

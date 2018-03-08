@@ -9,39 +9,39 @@
     <link href="js/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" >
   </head>
   <body>
-    <main class="main">
-      <div class="wrapper">
-        <h1 class='header--main'>jQuery Ui Todo List</h1>
-        <section class="day-container">
-          <ul class="todo--lists">
-            <li class="title">monday</li>
-            <li class="input--li"><input type="text" class="add-todo" placeholder="add todo" /></li>
+    <main class="main-container">
+      <div class="content-wrapper">
+        <h1 class=''>jQuery Ui Todo List</h1>
+        <section class="list-container">
+          <ul class="list-container__list">
+            <li class="list-container__title">monday</li>
+            <li><input type="text" class="list-container__input" placeholder="add todo" /></li>
           </ul>
-          <ul class="todo--lists">
-            <li class="title">tuesday</li>
-            <li class="input--li"><input type="text" class="add-todo" placeholder="add todo" /></li>
+          <ul class="list-container__list">
+            <li class="list-container__title">tuesday</li>
+            <li><input type="text" class="list-container__input" placeholder="add todo" /></li>
           </ul>
-          <ul class="todo--lists">
-            <li class="title">wednesday</li>
-            <li class="input--li"><input type="text" class="add-todo" placeholder="add todo" /></li>
+          <ul class="list-container__list">
+            <li class="list-container__title">wednesday</li>
+            <li><input type="text" class="list-container__input" placeholder="add todo" /></li>
           </ul>
-          <ul class="todo--lists">
-            <li class="title">thursday</li>
-            <li class="input--li"><input type="text" class="add-todo" placeholder="add todo" /></li>
+          <ul class="list-container__list">
+            <li class="list-container__title">thursday</li>
+            <li><input type="text" class="list-container__input" placeholder="add todo" /></li>
           </ul>
-          <ul class="todo--lists">
-            <li class="title">friday</li>
-            <li class="input--li"><input type="text" class="add-todo" placeholder="add todo" /></li>
+          <ul class="list-container__list">
+            <li class="list-container__title">friday</li>
+            <li><input type="text" class="list-container__input" placeholder="add todo" /></li>
           </ul>
         </section>
-        <div class="div--remove-items">
-          <span>Drop item to remove</span>
+        <div class="removal">
+          <span class="removal__text">Drop item to remove</span>
         </div>
          <div class="push"></div>
       </div>
     </main>
     <footer class="footer">
-      &copy;2018. NicholasDamico.net All Rights Reserved.
+      <small class="footer__text">&copy;2018. NicholasDamico.net All Rights Reserved.</small>
     </footer>
     <!-- if CDN Fails, load local version -->
     <script>window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.min.js"><\/script>')</script>
